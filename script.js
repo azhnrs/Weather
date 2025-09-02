@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Variabel untuk menyimpan informasi cuaca
     let weatherData = {};
-    const apiKey = '0df05272f8ea4b9db5b54926242912'; 
+    const apiKey = 'API'; 
 
     // Fungsi untuk mengambil data cuaca dari API
     function fetchWeather(city) {
