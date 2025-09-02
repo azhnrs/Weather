@@ -1,0 +1,93 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    justify-content: center; 
+    align-items: center;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    position: relative; 
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://play-lh.googleusercontent.com/pXn5gZYTebtoEeQDkGh8Qz88EclFnZ9v_cGasmKvsvRBU8CKnkvFv26yaF1vbK066Q'); 
+    background-size: cover; 
+    background-position: center; 
+    filter: blur(3px); 
+    z-index: -1; 
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #111777;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+.moving-box {
+    position: absolute; 
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease; 
+    text-align: center; 
+}
+
+.moving-box p {
+    margin: 0; 
+    font-size: 14px; 
+}
+
+.moving-box img {
+    display: block; 
+    margin: 10px auto 0; 
+}
