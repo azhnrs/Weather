@@ -1,6 +1,6 @@
 # Weather App - Aplikasi Cek Cuaca 🌤️
 
-Aplikasi web sederhana untuk mengecek informasi cuaca dari berbagai kota di dunia. Project ini dibuat sebagai bagian dari bootcamp pembelajaran JavaScript dan jQuery.
+Aplikasi web sederhana untuk mengecek informasi cuaca dari berbagai kota di dunia. Project ini dibuat untuk memenuhi tugas akhir materi JavaScript dan jQuery dalam bootcamp Full Stack Web Development.
 
 ## 🚀 Features
 
